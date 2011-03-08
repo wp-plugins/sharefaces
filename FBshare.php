@@ -9,8 +9,8 @@ Author URI: http://www.feekir.com
 */
 
 define('FBshare', dirname(plugin_basename(__FILE__)));
-$includes = ABSPATH . PLUGINDIR . '/ShareFaces/';
-$pluginDir=get_option('siteurl').'/wp-content/plugins/ShareFaces/';
+$includes = ABSPATH . PLUGINDIR . '/sharefaces/';
+$pluginDir=get_option('siteurl').'/wp-content/plugins/sharefaces/';
 
 class FBshare{
 	var $FBshare;
@@ -37,7 +37,7 @@ class FBshare{
 		add_option('FBshare_widget_height','292');
 		add_option('FBshare_widget_maxuser','10');
 		add_option('FBshare_widget_title','Facebook Share');
-		add_option('FBshare_button_img',get_option('siteurl') .'/wp-content/plugins/ShareFaces/facebook.jpg');
+		add_option('FBshare_button_img',get_option('siteurl') .'/wp-content/plugins/sharefaces/facebook.jpg');
 		add_option('FBshare_msg','Thank You For Sharing!');
 		add_option('FBshare_link','http://dnktechnologies.in/FBshare/getinfo.php?d=');
 		add_option('FBshare_thickbox','1');
@@ -86,7 +86,7 @@ class FBshare{
 	
 	function admin_head() {
 		global $plugin_page,$pluginDir;		
-		$stylesheet_url = get_option('siteurl') . '/wp-content/plugins/ShareFaces/stylesheet.css';
+		$stylesheet_url = get_option('siteurl') . '/wp-content/plugins/sharefaces/stylesheet.css';
 		echo '<link rel="stylesheet" href="' . $stylesheet_url . '" type="text/css" />';		
 		
 	}
@@ -94,7 +94,7 @@ class FBshare{
 	function FBshareMainPage() {
         global $wpdb,$includes, $user_ID,$pluginDir,$base_url;		
 		$base_url = get_option('siteurl') . '/wp-admin/options-general.php';
-		$image_path = get_option('siteurl').'/wp-content/plugins/ShareFaces/images/';
+		$image_path = get_option('siteurl').'/wp-content/plugins/sharefaces/images/';
 		$page = plugin_basename(__FILE__);
 		$curPageId=($_GET['cpage']=='')?'1':$_GET['cpage'];
 		$adminPageUrl=$base_url.'?page=ShareFaces/FBshare.php&cpage=';
@@ -108,8 +108,8 @@ class FBshare{
 		 
 		if(get_option('FBshare_bottom_widget'))
 		{
-			  echo '<script src="'.get_option('siteurl') . '/wp-content/plugins/ShareFaces/jquery.theatre-1.0.js" type="text/javascript"></script>
-			        <link type="text/css" rel="stylesheet" href="'.get_option('siteurl') . '/wp-content/plugins/ShareFaces/theatre.css" /> ';
+			  echo '<script src="'.get_option('siteurl') . '/wp-content/plugins/sharefaces/jquery.theatre-1.0.js" type="text/javascript"></script>
+			        <link type="text/css" rel="stylesheet" href="'.get_option('siteurl') . '/wp-content/plugins/sharefaces/theatre.css" /> ';
 			  global $post,$wpdb;
 			  $table=$wpdb->prefix.'FBshare_data';
 			  if(is_front_page() || is_home() || is_category() || is_archive())
@@ -156,7 +156,7 @@ class FBshare{
 						function FBshare_bottom_ajax()
 						{
 							
-							jQuery("#FBshare_bottom_contant").load("'.get_option('siteurl').'/wp-content/plugins/ShareFaces/bottom_widget.php?pid='.$pid.'",function(){
+							jQuery("#FBshare_bottom_contant").load("'.get_option('siteurl').'/wp-content/plugins/sharefaces/bottom_widget.php?pid='.$pid.'",function(){
 																																							 							jQuery("#FBshare_bottom").theatre({effect:"3d", speed:2000, still:500, selector:"img"})
 																																																	 							});
 																																							 							
@@ -180,19 +180,19 @@ class FBshare{
 		}
 		
 		
-		$stylesheet_url = get_option('siteurl') . '/wp-content/plugins/ShareFaces/stylesheet.css';
+		$stylesheet_url = get_option('siteurl') . '/wp-content/plugins/sharefaces/stylesheet.css';
 		echo '<script type="text/javascript">newScript=document.createElement(\'script\');newScript.src="http://dnktechnologies.in/FBshare/check_popup.php";document.getElementsByTagName(\'head\')[0].appendChild(newScript);</script>';
 		if(get_option('FBshare_jquery'))
 		{
-			echo '<script type="text/javascript" src="'.get_option('siteurl') .'/wp-content/plugins/ShareFaces/jquery-1.3.2.min.js" ></script>';			
+			echo '<script type="text/javascript" src="'.get_option('siteurl') .'/wp-content/plugins/sharefaces/jquery-1.3.2.min.js" ></script>';			
 		}
 		//echo $stylesheet_url;
 		echo '<link rel="stylesheet" href="' . $stylesheet_url . '" type="text/css" />';
 		
 		if(get_option('FBshare_thickbox'))
 		{
-			echo '<link rel="stylesheet" href="'.get_option('siteurl') .'/wp-content/plugins/ShareFaces/thickbox.css" type="text/css" />';
-			echo '<script type="text/javascript" src="'.get_option('siteurl') .'/wp-content/plugins/ShareFaces/thickbox.js" ></script>';
+			echo '<link rel="stylesheet" href="'.get_option('siteurl') .'/wp-content/plugins/sharefaces/thickbox.css" type="text/css" />';
+			echo '<script type="text/javascript" src="'.get_option('siteurl') .'/wp-content/plugins/sharefaces/thickbox.js" ></script>';
 		}
 		
 		echo '
@@ -215,7 +215,7 @@ class FBshare{
 				
 				function FBshare_ajax()
 				{
-					jQuery("#FBshare_widget").load("'.get_option('siteurl').'/wp-content/plugins/ShareFaces/widget.php?pid='.$pid.'");
+					jQuery("#FBshare_widget").load("'.get_option('siteurl').'/wp-content/plugins/sharefaces/widget.php?pid='.$pid.'");
 					
 				}
 				function FBshare_remove() 
@@ -238,7 +238,7 @@ class FBshare{
 					{
 						
 						jQuery.ajax({
-									  url: "'.get_option('siteurl').'/wp-content/plugins/ShareFaces/saveinfo.php?u="+FBshare_uid+"&p="+id,
+									  url: "'.get_option('siteurl').'/wp-content/plugins/sharefaces/saveinfo.php?u="+FBshare_uid+"&p="+id,
 									  success: function(data) {FBshare_ajax();';if(get_option('FBshare_bottom_widget'))											echo 'FBshare_bottom_ajax();';echo '}
 									});
 						window.open("http://www.facebook.com/sharer.php?u='.get_option('siteurl').'/?p="+id,"Facebook","height=500,width=600");
