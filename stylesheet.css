@@ -1,0 +1,186 @@
+#FBshare_bottom_widget_arrow
+{
+/* for firefox, safari, chrome, etc. */
+-webkit-transform: rotate(180deg);
+-moz-transform: rotate(180deg);
+-o-transform: rotate(180deg);/* For Opera*/
+-khtml-transform: rotate(180deg);/* For Lunix*/
+/* for ie */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+#FBshare_bottom li
+{
+	cursor:pointer;
+}
+#FBshare_bottom_title_box
+{
+	width:95%;
+	z-index:1001;
+	position:relative;
+	font-weight:bold;
+	top:5px;
+	*top:20px;
+}
+
+#FBshare_bottom_title
+{
+	float:left;
+	width:50%;
+	text-align:center;
+	
+}
+#FBshare_bottom_totle
+{
+	float:left;
+	width:29%;
+	text-align:left;
+}
+#FBshare_bottom_close
+{
+	float:left;
+	width:20%;
+	text-align: right;
+	cursor:pointer;
+	
+}
+#FBshare_name
+{
+	overflow:hidden;
+	width:65px;
+	word-wrap:break-word;
+}
+#FBshare_bottom
+{
+	float:right;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	left:0;
+	height:50px;
+	z-index:1000;
+	
+	
+}
+#FBshare_bottom a
+{
+	cursor:pointer;
+}
+#FBshare_bottom_contant
+{
+	float:right;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	left:0;
+	height:50px;
+}
+#FBshare_bottom_back
+{
+	float:right;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	left:0;
+	height:50px;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	background-color:#000;
+	z-index:999;
+}
+
+#FBshare_content .FBshare_button
+{
+	width:50px;
+	
+	cursor:pointer;
+}
+
+/* FBshare widget */
+#FBshare_widget {
+background:url(box_bg.jpg) repeat-y !important;
+float:left;
+width:30px;
+overflow:hidden;
+padding:0 !important;
+margin:0 !important;
+}
+#FBshare_widget_box_top {
+background:url(box_bg.jpg) no-repeat left top !important;
+float:left;
+width:30px;
+height:20px;
+margin:0 !important;
+padding:0 !important;
+}
+#FBshare_widget_top_right {
+background:url(box_bg.jpg) no-repeat right top !important;
+float:right;
+width:20px;
+height:20px;
+margin:0 !important;
+padding:0 !important;
+}
+
+#FBshare_widget_content {
+background:url(box_bg.jpg) repeat-y right -30px !important;
+float:left ;
+margin:0 0 0 20px !important;
+padding:0 !important;
+padding-right:20px !important;
+width:10px ;
+}
+
+
+#FBshare_widget_box_bottom {
+background:url(box_bg.jpg) no-repeat left bottom !important;
+float:left ;
+width:30px ;
+height:20px;
+margin:0 !important;
+padding:0 !important;
+}
+#FBshare_widget_bottom_right {
+background:url(box_bg.jpg) no-repeat right bottom !important;
+float:right;
+width:20px ;
+height:20px;
+margin:0 !important;
+padding:0 !important;
+}
+
+#FBshare_widget_title
+{
+	font-weight:bold ;
+	font-size:18px;
+	color:#00F;
+	width:95%;
+	height:2%px;
+	padding: 5% 2% 5% !important;
+	/*border:dashed 1px #09F;*/
+	text-align:center;
+	
+}
+#FBshare_total
+{
+	font-size:14px;
+	font-weight:normal;
+}
+#FBshare_widget_data
+{
+	width:95%;
+	height:80%;
+	padding: 10% 2% 10% !important;
+	padding-top:10% !important;
+	/*border:dashed 1px #09F;*/
+	overflow:hidden !important;
+	
+}
+#FBshare_data_box
+{
+	cursor:pointer;
+	width:70px;
+	height:90px;
+	float:left;
+	overflow:hidden;
+	
+}
