@@ -16,6 +16,9 @@ $main_option=get_option('FBshare_display');
 <form method="post" action="">
 <table class="FBshare_table form-table">
 <tr>
+<p>Like ShareFaces? Do you want to see more features in the upcoming plugin updates? Kindly <a href="http://www.tolong.org">make a donation</a> through our Tolong.org program. We appreciate your support!</p>
+</tr>
+<tr>
 <td>
 Automatically add Share Button to your posts?*
 </td>

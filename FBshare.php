@@ -2,7 +2,7 @@
 /*
 Plugin Name: ShareFaces
 Plugin URI: http://www.feekir.com/wordpress/sharefaces
-Description: ShareFaces is a Facebook Share / Like Button that displays the Faces of Facebook users in a nice widget and specialized Footer Bar.
+Description: ShareFaces is a Facebook Share / Like Button which displays the Faces of Facebook users in a nice widget and specialized Footer Bar.
 Author: Feekir
 Version: 0.9
 Author URI: http://www.feekir.com

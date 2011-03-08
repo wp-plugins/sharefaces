@@ -4,7 +4,7 @@ Donate link: http://www.feekir.com
 Tags: sharefaces, facebook, share, buttons,
 Requires at least: 2.0.2
 Tested up to: 3.1
-Stable tag: 0.8
+Stable tag: 0.9
 
 ShareFaces is basically a Facebook share button that allows you to display users who have shared your article in the nice footer widget. There is nothing like actually using, so we recommend you to use it!
 
