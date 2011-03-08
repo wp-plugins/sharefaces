@@ -4,7 +4,7 @@ Donate link: http://www.feekir.com
 Tags: sharefaces, facebook, share, buttons,
 Requires at least: 2.0.2
 Tested up to: 3.1
-Stable tag: 0.9
+Stable tag: 0.9.1
 
 ShareFaces is basically a Facebook share button that allows you to display users who have shared your article in the nice footer widget. There is nothing like actually using, so we recommend you to use it!
 
@@ -63,21 +63,24 @@ the directory of the stable readme.txt, so in this case, `/tags/4.3/screenshot-1
 
 == Changelog ==
 
-= 0.8 =
+= 0.9.1 =
+* Bug Fixes
+
+= 0.9 =
 * Bug Fixes
 * New Graphic Improvements
 * New FacesBar
 
-= 0.7 =
+= 0.8 =
 * First Release. We say Hello to the World!
 
 == Upgrade Notice ==
 
-= 0.8 =
-Fixes some errors and new graphics.
+= 0.9.1 =
+Minor Bug Fixes
 
-= 0.7 =
-First Release. Hello World! =]
+= 0.9 =
+First Version that has been uploaded to wordpress.org
 
 == Arbitrary section ==
 
