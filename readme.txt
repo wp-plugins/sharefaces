@@ -24,17 +24,17 @@ Settings is quite self-explanatory, there is nothing so complicated about the pl
 
 == Frequently Asked Questions ==
 
+= How do you use ShareFaces? =
+
+It's easy! =] After activating ShareFaces, settings in the admin panel is optional. With one click installation, ShareFaces is the most simple and easy to use Share Button made available in the WordPress Plugin Directory.
+
 = Why is it not working? =
 
 There might be a conflict with some of the activated plugins, if you are using other Facebook like plugin, try deactivating them.
 
-= How do you use ShareFaces? =
-
-It's easy! =].
-
 == Screenshots ==
 
-1. sharefaces-artwork.jpg
+1. `sharefaces-artwork.jpg`
 
 == Changelog ==
 
@@ -57,24 +57,21 @@ Minor Bug Fixes
 = 0.9 =
 First Version that has been uploaded to wordpress.org
 
-== Arbitrary section ==
+== It Does The Job! ==
 
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
+Hundreds of blog owners use ShareFaces to encourage article sharing amongst their web visitors. It is probably the most fun way of encouraging your users to share article by displaying their faces on the FacesBar. As for now we only support Facebook, but more social networking services will be added in the future.
 
-== A brief Markdown Example ==
+== Key Features ==
 
 * FacesBar
 * Faces Widget
-* One Click Setup
+* One Click Installation
 
-Feekir Company Website [Feekir](http://www.feekir.com "Creative Media and Development Company")
+Visit Feekir Company [Official Website](http://www.feekir.com "Creative Media and Development Company")
 
 [markdown syntax]: http://daringfireball.net/projects/markdown/syntax
             "Markdown is what the parser uses to process much of the readme file"
 
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
+> You can help us in the form of donation. We need funds to invest on software development. We appreciate donation, every single *cent* counts.
 
-`<?php code(); // goes in backticks ?>`
+`Thank You For Supporting Feekir`
