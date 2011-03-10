@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: feekir
-Donate link: http://www.feekir.com
+Donate link: http://donate.tolong.org
 Tags: sharefaces, facebook, share, buttons,
 Requires at least: 2.0.2
 Tested up to: 3.1
@@ -14,7 +14,7 @@ ShareFaces is a Facebook Share / Like Button that displays the Faces of Facebook
 
 == Installation ==
 
-The installation is simple straight forward, you can use auto install directly from the admin panel or you can download the *.zip file and manually upload and activate it.
+The installation is simply straight forward. Type 'sharefaces' in the plugin browser in your WordPress admin panel and click on install. The other option is to manually download this plugin from wordpress.org and upload the *.zip file to your plugin directory.
 
 1. Download
 1. Upload
@@ -30,7 +30,7 @@ It's easy! =] After activating ShareFaces, settings in the admin panel is option
 
 = Why is it not working? =
 
-There might be a conflict with some of the activated plugins, if you are using other Facebook like plugin, try deactivating them.
+There might be a conflict with some of the activated plugins, if you are using other Facebook button plugin, try deactivating them.
 
 == Screenshots ==
 
